@@ -25,19 +25,19 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active a" aria-current="page" href="#">Contacto</a>
+                            <a class="nav-link active a tamanoLetra" aria-current="page" href="#">Contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a" href="../index.html">Inicio</a>
+                            <a class="nav-link a tamanoLetra" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a" href="./nosotros.html">Nosotros</a>
+                            <a class="nav-link a tamanoLetra" href="./nosotros.html">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a" href="./actividades.html">Actividades</a>
+                            <a class="nav-link a tamanoLetra" href="./actividades.html">Actividades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link a" href="./productos.html">Productos</a>
+                            <a class="nav-link a tamanoLetra" href="./productos.html">Productos</a>
                         </li>
                        
                     </ul>
@@ -50,27 +50,29 @@
         <section class="contact">
             <h2>CONTACTO</h2>
         </section>
-        <section class="datos">
-            
-            <form action="">
-                <div>
-                    <label for="name">Escribe tu nombre</label>
-                    <input type="text" name="name" placeholder="Laura">
+
+        <div class="formulario">
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputName" class="form-label">Escribe tu Nombre</label>
+                  <input type="Nombre" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+                  <div id="nameHelp" class="form-text">No compartiremos tus datos con nadie mas.</div>
                 </div>
-                <label for="tel">Escribe tu telefono</label>
-                <input type="text" placeholder="1199999999" name="tel" required>
-                <div>
+                <div class="mb-3">
+                  <label for="exampleInputTel" class="form-label">Telefono</label>
+                  <input type="telefono" class="form-control" id="exampleInputTel">
+                </div>
+                <div class="mb-3">
                     <label for="consulta">Escribe tu consulta</label>
                     <textarea name="consulta" id="" cols="30" rows="10"></textarea>
                 </div>
-                <div>
-                    <input type="submit" value="Enviar datos"> 
-                </div>
-            </form>
-        </section>
+                
+                <button type="submit" class="btn miColor">Enviar</button>
+              </form>
+        </div>
       
         <section>
-            <p class="contMedio">Lorem fdggiipsum dolor sit, amet consectetur adipisicing elit. Quae, assumenda?
+            <p class="contMedio">Dejanos tu consulta y nos comunicaremos con vos a la brevedad.
 
             </p>
         </section>
