@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 20px;
+    
 }
 body{
     background-color: rgb(221, 204, 238);
@@ -74,11 +74,14 @@ h4{
 }
 a{
     text-align: center;
-    padding: 25px;
-    font-size: 2.5rem;
+    padding: 10px;
+    font-size: 3rem;
     color: rgb(66, 10, 104);
     text-decoration: none;
     
+ }
+ tamanoLetra{
+    font-size: 5rem;
  }
  .lW{
     text-align: center;
