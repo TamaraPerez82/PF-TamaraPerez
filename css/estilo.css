@@ -19,7 +19,7 @@ header {
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 40px;
     text-align: center;
     color: rgb(208, 196, 219);
     font-style: arial;
@@ -39,6 +39,14 @@ ul {
     line-height: 1.5;
     font-style: arial;
     margin: auto;
+}
+.parrafo3{
+    padding: auto;
+    font-size: 20px;
+    font-style: arial;
+    margin: 2rem;
+    text-align: center;
+    
 }
 
 .sectionImg {
@@ -67,7 +75,7 @@ footer {
 
 h2 {
     padding: 10px;
-    font-size: 3rem;
+    font-size: 50px;
     color: rgb(64, 68, 116);
     text-align: center;
     font-style: arial;
@@ -94,14 +102,14 @@ h4 {
 a {
     text-align: center;
     padding: 10px;
-    font-size: 3rem;
+    font-size: 20px;
     color: rgb(66, 10, 104);
     text-decoration: none;
 
 }
 
 .tamanoLetra {
-    font-size: 2rem;
+    font-size: 40px;
 }
 
 .lW {
@@ -143,23 +151,30 @@ a {
 }
 .formulario {
     width: 500px;
-    margin: 10px;
-    border: rgb(85, 14, 151) 3px;
+    margin:2rem;
+    border: blueviolet solid 3px;
     padding: 2rem;
+    text-align: center;
 }
-@media (max-widht:400px){
+@media only screen and (min-widht:320px)and(max-widht:500px){
+
+    h1{font-size: 20px;}
+    h2{font-size: 20px;}
+
+    .formulario{
+        width: 50px;
+        
+    }
+
+    .ubicacion{
+        width: 10px;
+    }
     
     .contact{
         text-align: center;
+        font-size: 20px;
     }
-    .ubicacion{
-        text-align: center;
-    }
-    .formulario{
-        background-color: red;
-        
-    }
-    
+           
 }
 
 .miColor {
