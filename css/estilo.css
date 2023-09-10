@@ -38,6 +38,7 @@ ul {
     padding: 1rem;
     line-height: 1.5;
     font-style: arial;
+    margin: auto;
 }
 
 .sectionImg {
@@ -122,7 +123,8 @@ a {
 }
 
 .img2 {
-    width: 400px;
+    width: 380px;
+    border-radius: 1rem;
 
 }
 
@@ -132,11 +134,7 @@ a {
     padding: 10px;
 }
 
-.contact {
-    height: 300px;
-    background-image: url(../Fotos/symphonyFondo.png);
-    background-repeat: repeat;
-}
+
 
 .contMedio {
     padding: 5px;
@@ -149,14 +147,17 @@ a {
     border: rgb(85, 14, 151) 3px;
     padding: 2rem;
 }
-@media screen and (max-widht:480px){
-    .contMedio{
+@media (max-widht:400px){
+    
+    .contact{
         text-align: center;
-        margin: 2px;
+    }
+    .ubicacion{
+        text-align: center;
     }
     .formulario{
-        width: 10px;
-        text-align: center;
+        background-color: red;
+        
     }
     
 }
@@ -166,7 +167,11 @@ a {
     color: rgb(209, 188, 230);
     margin: 1rem;
 }
+.miColor:hover{
+    background-color: #8d4ea3;
+    color: rgb(30, 11, 48);
+}
 .ubicacion{
-    padding: auto;
-    margin: 3rem;
+    padding: 1rem;
+    margin: 2rem;
 }
