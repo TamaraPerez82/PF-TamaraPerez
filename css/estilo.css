@@ -40,13 +40,14 @@ ul {
     font-style: arial;
     margin: auto;
 }
-.parrafo3{
-    padding: auto;
+
+.parrafo3 {
+    padding: 1rem;
     font-size: 20px;
     font-style: arial;
-    margin: 40px;
+    margin: 1rem;
     text-align: left;
-    
+
 }
 
 .sectionImg {
@@ -83,9 +84,10 @@ h2 {
 }
 
 h3 {
+    display: flex;
     padding: 20px;
     color: rgb(90, 18, 158);
-    
+
     text-align: left;
 
 }
@@ -142,39 +144,29 @@ a {
     padding: 10px;
 }
 
-
-
 .contMedio {
     padding: 5px;
     text-align: left;
-    margin: 10px;
+    margin: 10px; 
 }
-.formulario {
-    width: 500px;
-    margin:2rem;
-    border: blueviolet solid 3px;
-    padding: 1rem;
+.contact{
+    padding: 10px;
+    font-size: 50px;
+    color: rgb(64, 68, 116);
     text-align: center;
+    font-style: arial;
+
 }
-@media only screen and (min-widht:320px)and(max-widht:500px){
 
-    h1{font-size: 20px;}
-    h2{font-size: 20px;}
+.formulario {
+    display: flex;
+    padding: 1rem;
+    flex-direction: row;
+    text-align: left;
+    border: blueviolet solid 3px;
+    margin: 1rem;
+    width: 400px;
 
-    .formulario{
-        width: 50px;
-        
-    }
-
-    .ubicacion{
-        width: 10px;
-    }
-    
-    .contact{
-        text-align: center;
-        font-size: 20px;
-    }
-           
 }
 
 .miColor {
@@ -182,11 +174,54 @@ a {
     color: rgb(209, 188, 230);
     margin: 1rem;
 }
-.miColor:hover{
+
+.miColor:hover {
     background-color: #8d4ea3;
     color: rgb(30, 11, 48);
 }
-.ubicacion{
+
+.ubicacion {
     padding: 1rem;
     margin: 1rem;
+}
+
+.map {
+    position: relative;
+    text-align: right;
+    width: 85%;
+    height: 300px;
+    margin: 0 auto;
+}
+.direccion{
+    text-align: right;
+}
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .formulario {
+        align-items: center;
+        width: 300px;
+        justify-content: center;
+
+    }
+
+    .ubicacion {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .contact {
+        text-align: center;
+        font-size: 40px;
+    }
+
 }
