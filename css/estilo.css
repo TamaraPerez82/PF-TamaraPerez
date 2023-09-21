@@ -42,8 +42,8 @@ body .header nav div .tamanoLetra {
 main section .parrafo1 {
   padding: 1rem;
   line-height: 1.5;
-  font-style: arial;
-  margin: auto;
+  font-style: Arial, Helvetica, sans-serif;
+  margin: 2rem;
 }
 main div .sectionImg {
   text-align: center;
@@ -66,11 +66,11 @@ footer div .lI {
 main section h2 {
   padding: 10px;
   font-size: 50px;
-  color: rgb(64, 68, 116);
   text-align: center;
-  font-style: arial;
+  color: rgb(64, 68, 116);
+  font-size: Arial, Helvetica, sans-serif;
 }
-main section .img2 {
+main div .img2 {
   display: flex;
   text-align: center;
   width: 380px;
@@ -80,16 +80,16 @@ main section .img2 {
 main section .parrafo1 {
   padding: 1rem;
   line-height: 1.5;
-  font-style: arial;
-  margin: auto;
+  font-style: Arial, Helvetica, sans-serif;
+  margin: 2rem;
 }
 
 main div h2 {
   padding: 10px;
   font-size: 50px;
-  color: rgb(64, 68, 116);
   text-align: center;
-  font-style: arial;
+  color: rgb(64, 68, 116);
+  font-size: Arial, Helvetica, sans-serif;
 }
 main section div .tituloSecundario {
   font-size: 25px;
@@ -117,43 +117,69 @@ main section div div .parrafo3 {
   margin: 1rem;
   text-align: left;
 }
-main section div .formulario div .form-label {
-  color: red;
+main section div .formu {
+  border: blueviolet solid 3px;
+  width: 450px;
+  height: 400px;
+}
+main section div .formu div .form-label {
+  display: flex;
+  padding: auto;
+  flex-direction: row;
+  text-align: left;
+  margin: 1rem;
+  width: 400px;
+}
+main section div .formu div .form-control {
   display: flex;
   padding: 1rem;
   flex-direction: row;
   text-align: left;
-  border: blueviolet solid 3px;
   margin: 1rem;
   width: 400px;
 }
-main section div .formulario div .form-control {
-  color: red;
+main section div .formu div .form-text {
   display: flex;
-  padding: 1rem;
-  flex-direction: row;
-  text-align: left;
-  border: blueviolet solid 3px;
-  margin: 1rem;
-  width: 400px;
-}
-main section div .formulario div .form-text {
-  display: flex;
-  text-align: left;
+  text-align: right;
   margin: 20px;
 }
-main section div .miColor {
+main section div .formu div .form-label2 {
+  display: flex;
+  padding: auto;
+  flex-direction: row;
+  text-align: left;
+  margin: 1rem;
+  width: 400px;
+}
+main section div .formu div .coment {
+  display: flex;
+  text-align: left;
+  margin: 1rem;
+  padding: auto;
+}
+main section div .formu div textarea {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+}
+main section div .formu div label {
+  color: black;
+  margin: 1rem;
+  font-size: 15px;
+}
+main section .miColor {
   background-color: blueviolet;
   color: rgb(209, 188, 230);
   display: flex;
   margin: 2rem;
   text-align: left;
 }
-main section div .miColor:hover {
+main section .miColor:hover {
   background-color: #8d4ea3;
   color: rgb(30, 11, 48);
 }
-main section div .parrafo3 {
+main div .parrafo3 {
   padding: 1rem;
   font-size: 20px;
   font-style: arial;
@@ -164,17 +190,20 @@ main section div .parrafo3 {
 main section div .h2 {
   padding: 10px;
   font-size: 50px;
-  color: rgb(64, 68, 116);
   text-align: center;
-  font-style: arial;
+  color: rgb(64, 68, 116);
+  font-size: Arial, Helvetica, sans-serif;
+}
+main div ul li {
+  font-size: 20px;
 }
 
 main section .h2 {
   padding: 10px;
   font-size: 50px;
-  color: rgb(64, 68, 116);
   text-align: center;
-  font-style: arial;
+  color: rgb(64, 68, 116);
+  font-size: Arial, Helvetica, sans-serif;
 }
 main .contFotos {
   padding: 2rem;

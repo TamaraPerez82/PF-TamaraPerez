@@ -1,10 +1,8 @@
 main{
      section{
         .parrafo1{
-            padding: 1rem;
-    line-height: 1.5;
-    font-style: arial;
-    margin: auto;
+            @include textosCentrales
+    
         }
      }
      div{

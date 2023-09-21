@@ -1,123 +1,166 @@
-main{
-    div{
-        h2{
-            padding: 10px;
-            font-size: 50px;
-            color: rgb(64, 68, 116);
-            text-align: center;
-            font-style: arial;
+main {
+    div {
+        h2 {
+            @include titulosPrincip
         }
-        
+
     }
-    section{
-        div{
-            .tituloSecundario{
+
+    section {
+        div {
+            .tituloSecundario {
                 font-size: 25px;
                 font-style: arial;
                 color: rgb(46, 16, 73);
-                text-align:start;
+                text-align: start;
                 margin: 0 auto;
                 width: 70%;
-                padding:3rem;
-                
+                padding: 3rem;
+
             }
         }
-        .map{
-           
+
+        .map {
+
             text-align: right;
             width: 85%;
             height: 300px;
             margin: 0 auto;
         }
-    
-    
-    
-        
-        .ubicacion{
+
+
+
+
+        .ubicacion {
             padding: auto;
-    margin: 1.5rem;
-    
-    
-    
-    }
-    div{
-        div{
-        .parrafo3{
-            padding: 1rem;
-    font-size: 20px;
-    font-style: arial;
-    margin: 1rem;
-    text-align: left;
+            margin: 1.5rem;
+
+
+
         }
-        }   
-    } 
-    
-    div{
-        
-        .formulario{
-                    
-                        div{
-                        .form-label{
-                            
-                    color: red;
-            display: flex;
-            padding: 1rem;
-            flex-direction: row;
-            text-align: left;
-            border: blueviolet solid 3px;
-            margin: 1rem;
-            width: 400px;
-                  }
-                  .form-control{
-                    color: red;
-            display: flex;
-            padding: 1rem;
-            flex-direction: row;
-            text-align: left;
-            border: blueviolet solid 3px;
-            margin: 1rem;
-            width: 400px;
-                  }
-                  .form-text{
-                    display: flex;
-                    text-align: left;
-                    margin: 20px;
-                  }
-                     
-                }
-            }
-          
-                .miColor{
-                    background-color: blueviolet;
-    color: rgb(209, 188, 230);
-    display: flex;
-    margin: 2rem;
-    text-align: left;
-                }
-                .miColor:hover {
-                    background-color: #8d4ea3;
-                    color: rgb(30, 11, 48);
-                } 
-            }
-            div{
-                .parrafo3{
-                    
+
+        div {
+            div {
+                .parrafo3 {
                     padding: 1rem;
                     font-size: 20px;
                     font-style: arial;
                     margin: 1rem;
                     text-align: left;
                 }
-            }   
-        } 
-        
+            }
         }
-        
-    
-    
+
+        div {
 
 
-    
+            .formu {
+                border: blueviolet solid 3px;
+                width: 450px;
+                height: 400px;
+
+                div {
 
 
+                    .form-label {
+
+
+                        display: flex;
+                        padding: auto;
+                        flex-direction: row;
+                        text-align: left;
+
+                        margin: 1rem;
+                        width: 400px;
+                    }
+
+                    .form-control {
+
+                        display: flex;
+                        padding: 1rem;
+                        flex-direction: row;
+                        text-align: left;
+
+                        margin: 1rem;
+                        width: 400px;
+                    }
+
+                    .form-text {
+
+                        display: flex;
+                        text-align: right;
+                        margin: 20px;
+                    }
+                }
+
+                div {
+                    .form-label2 {
+
+                        display: flex;
+                        padding: auto;
+                        flex-direction: row;
+                        text-align: left;
+
+                        margin: 1rem;
+                        width: 400px;
+                    }
+                }
+
+                div {
+
+
+
+
+                    .coment {
+
+                        
+                        display: flex;
+                        text-align: left;
+                        margin: 1rem;
+                        padding: auto;
+                    }
+
+                    textarea {
+                        display: flex;
+                        position:absolute;
+                        text-align: center;
+                        overflow: hidden;
+                    }
+                     label{  
+                        color: black; 
+                        margin: 1rem;
+                        font-size:15px ;
+
+                       
+                    }}
+
+                }
+            }
+
+
+            .miColor {
+                background-color: blueviolet;
+                color: rgb(209, 188, 230);
+                display: flex;
+                margin: 2rem;
+                text-align: left;
+            }
+
+            .miColor:hover {
+                background-color: #8d4ea3;
+                color: rgb(30, 11, 48);
+            }
+        }
+
+        div {
+            .parrafo3 {
+
+                padding: 1rem;
+                font-size: 20px;
+                font-style: arial;
+                margin: 1rem;
+                text-align: left;
+            }
+        }
+    }
 
