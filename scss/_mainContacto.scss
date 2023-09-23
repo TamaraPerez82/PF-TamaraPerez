@@ -11,7 +11,7 @@ main {
                 font-size: 25px;
                 font-style: $tipografiaTitulos;
                 color: rgb(46, 16, 73);
-                text-align: start;
+                text-align: center;
                 margin: 0 auto;
                 width: 70%;
                 padding: 3rem;
@@ -20,14 +20,17 @@ main {
         }
 
         .map {
+            display: flex;
 
-            text-align: right;
+            justify-content: center;
+            text-align: center;
             width: 85%;
             height: 300px;
             margin: 0 auto;
         }
 
         .ubicacion {
+            text-align: center;
             padding: auto;
             margin: 1.5rem;
         }
@@ -62,7 +65,7 @@ main {
 
                     .form-control {
                         @extend .form-label;
-                       
+
                     }
 
                     .form-text {
@@ -124,6 +127,7 @@ main {
                 }
             }
         }
+
         div {
             .parrafo3 {
                 padding: 1rem;
