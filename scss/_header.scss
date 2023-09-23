@@ -15,6 +15,23 @@ body {
             text-align: center;
             color: rgb(208, 196, 219);
             font-style: arial;
+            animation-duration: 5s;
+            animation-name: titulo;
+            animation-iteration-count: infinite;
+        }
+        @keyframes titulo{
+            0%{
+                opacity: .2;
+                color: rgb(190, 173, 206);
+            }
+            50%{
+                opacity: 1;
+                color: rgb(177, 171, 184);
+            }
+            100%{
+                opacity: .3;
+                color:rgb(208, 196, 219) ;
+            }
         }
 
         nav {
@@ -32,6 +49,10 @@ body {
                     font-size: 20px;
                     color: rgb(53, 8, 83);
                     text-decoration: none;
+                }
+                a:hover{
+                    transform: scale(1.1,1.1);
+                    transition: all 1.4s ease;
                 }
 
                 .contMenu {
