@@ -1,15 +1,16 @@
-main{
-    section{
-        div{
-            .h2{
-               @include titulosPrincip
+main {
+    section {
+        div {
+            .h2 {
+                @include titulosPrincip
             }
         }
     }
-    div{
-        ul{
-            li{
-                
+
+    div {
+        ul {
+            li {
+
                 font-size: 20px;
             }
         }

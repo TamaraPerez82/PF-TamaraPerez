@@ -3,7 +3,6 @@ main {
         h2 {
             @include titulosPrincip
         }
-
     }
 
     section {
@@ -28,15 +27,9 @@ main {
             margin: 0 auto;
         }
 
-
-
-
         .ubicacion {
             padding: auto;
             margin: 1.5rem;
-
-
-
         }
 
         div {
@@ -52,41 +45,27 @@ main {
         }
 
         div {
-
-
             .formu {
                 border: rgb(131, 58, 150) solid 3px;
                 width: 450px;
-                height: 500px;
+                height: 410px;
 
                 div {
-
-
                     .form-label {
-
-
                         display: flex;
                         padding: auto;
                         flex-direction: row;
                         text-align: left;
-
                         margin: 1rem;
                         width: 400px;
                     }
 
                     .form-control {
-
-                        display: flex;
-                        padding: 1rem;
-                        flex-direction: row;
-                        text-align: left;
-
-                        margin: 1rem;
-                        width: 400px;
+                        @extend .form-label;
+                       
                     }
 
                     .form-text {
-
                         display: flex;
                         text-align: right;
                         margin: 20px;
@@ -95,24 +74,17 @@ main {
 
                 div {
                     .form-label2 {
-
                         display: flex;
                         padding: auto;
                         flex-direction: row;
                         text-align: left;
-
                         margin: 1rem;
                         width: 400px;
                     }
                 }
 
                 div {
-
-
-
-
                     .coment {
-
 
                         display: flex;
                         text-align: left;
@@ -132,21 +104,18 @@ main {
                         margin: 1rem;
                         font-size: 15px;
                     }
-
                 }
-
 
                 .miColor {
                     display: flex;
                     border: 2px blueviolet;
                     color: rgb(209, 188, 230);
-                    background-color: rgb(131, 58, 150); 
+                    background-color: rgb(131, 58, 150);
                     border-radius: 2.5px;
                     margin: 7.5rem;
                     margin-left: 1.5rem;
                     padding: 4px;
                     text-align: left;
-
                 }
 
                 .miColor:hover {
@@ -155,17 +124,15 @@ main {
                 }
             }
         }
-    
+        div {
+            .parrafo3 {
+                padding: 1rem;
+                font-size: 20px;
+                font-style: arial;
+                margin: 1rem;
+                text-align: center;
 
-    div {
-        .parrafo3 {
-
-            padding: 1rem;
-            font-size: 20px;
-            font-style: arial;
-            margin: 1rem;
-            text-align: center;
-            
+            }
         }
     }
-}}
+}

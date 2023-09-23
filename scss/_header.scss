@@ -7,7 +7,7 @@ body {
         background-image: linear-gradient(0deg, rgb(127, 31, 218) 19%, rgb(99, 9, 99) 100%);
         padding: 1rem;
         margin: 10px;
-        
+
         h1 {
             font-size: 40px;
             text-align: center;
@@ -17,18 +17,21 @@ body {
             animation-name: titulo;
             animation-iteration-count: infinite;
         }
-        @keyframes titulo{
-            0%{
+
+        @keyframes titulo {
+            0% {
                 opacity: .2;
                 color: rgb(190, 173, 206);
             }
-            50%{
+
+            50% {
                 opacity: 1;
                 color: rgb(177, 171, 184);
             }
-            100%{
+
+            100% {
                 opacity: .3;
-                color:rgb(208, 196, 219) ;
+                color: rgb(208, 196, 219);
             }
         }
 
@@ -41,15 +44,17 @@ body {
                         border-radius: 50%;
                     }
                 }
-                a{
+
+                a {
                     text-align: center;
                     padding: 10px;
                     font-size: 20px;
                     color: rgb(53, 8, 83);
                     text-decoration: none;
                 }
-                a:hover{
-                    transform: scale(1.1,1.1);
+
+                a:hover {
+                    transform: scale(1.1, 1.1);
                     transition: all 1.4s ease;
                 }
 
@@ -57,8 +62,9 @@ body {
                     padding: 1rem;
                     justify-content: end;
                 }
-                .tamanoLetra{
-                    font-size: 40px; 
+
+                .tamanoLetra {
+                    font-size: 40px;
                 }
 
             }

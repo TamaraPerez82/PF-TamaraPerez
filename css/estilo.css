@@ -18,7 +18,24 @@ body .header h1 {
   font-size: 40px;
   text-align: center;
   color: rgb(208, 196, 219);
-  font-style: arial;
+  font-style: Arial, Helvetica, sans-serif;
+  animation-duration: 5s;
+  animation-name: titulo;
+  animation-iteration-count: infinite;
+}
+@keyframes titulo {
+  0% {
+    opacity: 0.2;
+    color: rgb(190, 173, 206);
+  }
+  50% {
+    opacity: 1;
+    color: rgb(177, 171, 184);
+  }
+  100% {
+    opacity: 0.3;
+    color: rgb(208, 196, 219);
+  }
 }
 body .header nav div .contLogo .logo {
   width: 100px;
@@ -30,6 +47,10 @@ body .header nav div a {
   font-size: 20px;
   color: rgb(53, 8, 83);
   text-decoration: none;
+}
+body .header nav div a:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 1.4s ease;
 }
 body .header nav div .contMenu {
   padding: 1rem;
@@ -78,9 +99,9 @@ main section h2 {
 main div .img2 {
   display: flex;
   text-align: center;
-  width: 380px;
-  border-radius: 1rem;
   margin: auto;
+  border-radius: 1rem;
+  width: 380px;
 }
 main section .parrafo1 {
   padding: 1rem;
@@ -125,19 +146,11 @@ main section div div .parrafo3 {
 main section div .formu {
   border: rgb(131, 58, 150) solid 3px;
   width: 450px;
-  height: 500px;
+  height: 410px;
 }
-main section div .formu div .form-label {
+main section div .formu div .form-label, main section div .formu div .form-control {
   display: flex;
   padding: auto;
-  flex-direction: row;
-  text-align: left;
-  margin: 1rem;
-  width: 400px;
-}
-main section div .formu div .form-control {
-  display: flex;
-  padding: 1rem;
   flex-direction: row;
   text-align: left;
   margin: 1rem;

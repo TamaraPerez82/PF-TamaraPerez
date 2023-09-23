@@ -11,3 +11,10 @@
     font-style: $tipografiaTitulos;
     margin: 2rem;
 }
+@mixin imagenes($tamano){
+    display: flex;
+    text-align: center;
+    margin: auto;
+    border-radius: 1rem;
+    width: $tamano;
+}

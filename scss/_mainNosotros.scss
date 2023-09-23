@@ -7,19 +7,13 @@ main {
 
     div {
         .img2 {
-            display: flex;
-            text-align: center;
-
-            width: 380px;
-            border-radius: 1rem;
-            margin: auto;
+            @include imagenes(380px)
         }
     }
 
     section {
         .parrafo1 {
-           @include textosCentrales
-
+            @include textosCentrales
         }
     }
 }

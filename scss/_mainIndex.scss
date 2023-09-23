@@ -1,23 +1,18 @@
-main{
-     section{
-        .parrafo1{
+main {
+    section {
+        .parrafo1 {
             @include textosCentrales
-    
         }
-     }
-     div{
-        .sectionImg{
-            text-align: center;
-             
-            }
-            .img1{
-                display: flex;
-                text-align: center;
-                margin: auto;
-                border-radius: 1rem;
-                width: 300px; 
+    }
 
-                
+    div {
+        .sectionImg {
+            text-align: center;
+
         }
-     }
+
+        .img1 {
+            @include imagenes(300px)
+        }
+    }
 }
