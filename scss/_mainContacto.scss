@@ -140,3 +140,20 @@ main {
         }
     }
 }
+
+@media screen and (max-widht:480px) {
+    div {
+        .formu {
+            display: flex;
+            flex-direction: initial;
+            justify-content: left;
+            width: 350px;
+            height: 300px;
+        }
+    }
+
+    .contact {
+        text-align: center;
+        font-size: 40px;
+    }
+}
