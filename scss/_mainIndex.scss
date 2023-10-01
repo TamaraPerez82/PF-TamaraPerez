@@ -15,4 +15,23 @@ main {
             @include imagenes(300px)
         }
     }
+    section{
+        .h2{
+            
+            color: red;
+            padding: 1rem;
+        }
+        
+    }
+    section{
+    .preguntas{
+        margin: 2rem;
+        font-size: 25px;
+        
+    }
+    .respuestas{
+        margin: 2rem;
+    }
+    
+}
 }

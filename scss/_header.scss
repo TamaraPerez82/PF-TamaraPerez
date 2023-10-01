@@ -72,14 +72,16 @@ body {
         }
     }
 }
+
 @media screen and (max-widht:480px) {
-    nav{
-      div{
-        .contLogo{
-          .logo{
-            width: 50px;
-            margin: auto;
-          }
+    nav {
+        div {
+            .contLogo {
+                .logo {
+                    width: 50px;
+                    margin: auto;
+                }
+            }
         }
-      }
-    }}
+    }
+}

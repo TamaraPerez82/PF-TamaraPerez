@@ -4,23 +4,6 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-widht: 480px) {
-  nav div .contLogo .logo {
-    width: 50px;
-    margin: auto;
-  }
-  div .formu {
-    display: flex;
-    flex-direction: initial;
-    justify-content: left;
-    width: 350px;
-    height: 300px;
-  }
-  .contact {
-    text-align: center;
-    font-size: 40px;
-  }
-}
 body {
   background-color: rgb(221, 204, 238);
   font-family: Arial, Helvetica, sans-serif;
@@ -77,8 +60,14 @@ body .header nav div .tamanoLetra {
   font-size: 40px;
 }
 
+@media screen and (max-widht: 480px) {
+  nav div .contLogo .logo {
+    width: 50px;
+    margin: auto;
+  }
+}
 main section .parrafo1 {
-  padding: 1rem;
+  padding: 2rem;
   line-height: 1.5;
   font-style: Arial, Helvetica, sans-serif;
   margin: 2rem;
@@ -93,21 +82,48 @@ main div .img1 {
   border-radius: 1rem;
   width: 300px;
 }
+main section .h2 {
+  color: red;
+  padding: 1rem;
+}
+main section .preguntas {
+  margin: 2rem;
+  font-size: 25px;
+}
+main section .respuestas {
+  margin: 2rem;
+}
 
 footer div .lI {
-  display: flex;
   text-align: center;
   width: 50px;
-  margin: auto;
   border-radius: 1rem;
 }
 footer div .lI:hover {
-  transform: scale(1.3, 1.3);
-  transition: all 1.5s ease;
+  transform: scale(1.1, 1.1);
+  transition: all 1.2s ease;
+}
+footer div .lF {
+  text-align: center;
+  width: 50px;
+  border-radius: 1rem;
+}
+footer div .lF:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 1.2s ease;
+}
+
+.my-4 {
+  color: transparent;
+}
+
+div {
+  text-align: center;
+  font-size: small;
 }
 
 main section h2 {
-  padding: 10px;
+  padding: 3rem;
   font-size: 50px;
   text-align: center;
   color: rgb(131, 58, 150);
@@ -121,14 +137,14 @@ main div .img2 {
   width: 380px;
 }
 main section .parrafo1 {
-  padding: 1rem;
+  padding: 2rem;
   line-height: 1.5;
   font-style: Arial, Helvetica, sans-serif;
   margin: 2rem;
 }
 
 main div h2 {
-  padding: 10px;
+  padding: 3rem;
   font-size: 50px;
   text-align: center;
   color: rgb(131, 58, 150);
@@ -229,8 +245,21 @@ main section div .parrafo3 {
   text-align: center;
 }
 
+@media screen and (max-widht: 480px) {
+  div .formu {
+    display: flex;
+    flex-direction: initial;
+    justify-content: left;
+    width: 350px;
+    height: 300px;
+  }
+  .contact {
+    text-align: center;
+    font-size: 40px;
+  }
+}
 main section div .h2 {
-  padding: 10px;
+  padding: 3rem;
   font-size: 50px;
   text-align: center;
   color: rgb(131, 58, 150);
@@ -241,7 +270,7 @@ main div ul li {
 }
 
 main section .h2 {
-  padding: 10px;
+  padding: 3rem;
   font-size: 50px;
   text-align: center;
   color: rgb(131, 58, 150);
@@ -251,11 +280,10 @@ main .contFotos {
   padding: 2rem;
 }
 main .card-body .card-title {
-  display: flex;
+  text-align: left;
   padding: 20px;
   color: rgb(90, 18, 158);
   font-size: 20px;
-  text-align: left;
 }
 
 /*# sourceMappingURL=estilo.css.map */
