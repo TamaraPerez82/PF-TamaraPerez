@@ -95,6 +95,7 @@ main section .respuestas {
 }
 
 footer div .lI {
+  margin: 1rem;
   text-align: center;
   width: 50px;
   border-radius: 1rem;
@@ -104,6 +105,7 @@ footer div .lI:hover {
   transition: all 1.2s ease;
 }
 footer div .lF {
+  margin: 1rem;
   text-align: center;
   width: 50px;
   border-radius: 1rem;
@@ -265,8 +267,20 @@ main section div .h2 {
   color: rgb(131, 58, 150);
   font-size: Arial, Helvetica, sans-serif;
 }
+main div ul {
+  list-style-type: none;
+}
 main div ul li {
   font-size: 20px;
+}
+main section .galeria {
+  font-size: 40px;
+  padding: 2rem;
+  color: rgb(50, 13, 85);
+}
+main section .alin {
+  width: 40%;
+  border-radius: 1rem;
 }
 
 main section .h2 {

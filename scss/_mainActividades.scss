@@ -9,10 +9,26 @@ main {
 
     div {
         ul {
+            list-style-type: none;
             li {
 
                 font-size: 20px;
             }
         }
     }
-}
+    section{
+        .galeria{
+            font-size: 40px;
+            padding: 2rem;
+            color: rgb(50, 13, 85);
+                        
+        } 
+        
+        .alin{
+            width: 40%;
+            border-radius: 1rem;
+        }
+
+      
+    
+}}
