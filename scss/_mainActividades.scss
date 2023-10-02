@@ -10,24 +10,46 @@ main {
     div {
         ul {
             list-style-type: none;
+
             li {
 
                 font-size: 20px;
             }
         }
     }
-    section{
-        .galeria{
+
+    section {
+        .galeria {
             font-size: 40px;
             padding: 2rem;
             color: rgb(50, 13, 85);
-                        
-        } 
-        
-        .alin{
+
+        }
+
+        .alin {
             width: 40%;
             border-radius: 1rem;
         }
-   
-}
+
+    }
+
+    section {
+        .promos {
+            font-size: 30px;
+            padding: 2rem;
+            color: rgb(50, 13, 85);
+            text-decoration: underline;
+        }
+    }
+
+    .promo {
+        padding-left: 2rem;
+
+    }
+
+    .listaPromo {
+        padding-left: 2rem;
+
+
+    }
 }

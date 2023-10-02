@@ -4,6 +4,14 @@ main {
             @include titulosPrincip
         }
     }
+    section{
+        .parrafoProd{
+            font-size: 25px;
+            margin: 3rem;
+            text-align: center;
+            
+        }
+    }
 
     .contFotos {
         padding: 2rem;
@@ -16,10 +24,13 @@ main {
             padding: 20px;
             color: rgb(90, 18, 158);
             font-size: 20px;
-            
-           
-
         }
     }
+    section{
+        .visitanos{
+            text-align: center;
+        }
+    }
+    
 
 }
