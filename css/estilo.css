@@ -282,6 +282,18 @@ main section .alin {
   width: 40%;
   border-radius: 1rem;
 }
+main section .promos {
+  font-size: 30px;
+  padding: 2rem;
+  color: rgb(50, 13, 85);
+  text-decoration: underline;
+}
+main .promo {
+  padding-left: 2rem;
+}
+main .listaPromo {
+  padding-left: 2rem;
+}
 
 main section .h2 {
   padding: 3rem;
@@ -289,6 +301,11 @@ main section .h2 {
   text-align: center;
   color: rgb(131, 58, 150);
   font-size: Arial, Helvetica, sans-serif;
+}
+main section .parrafoProd {
+  font-size: 25px;
+  margin: 3rem;
+  text-align: center;
 }
 main .contFotos {
   padding: 2rem;
@@ -298,6 +315,9 @@ main .card-body .card-title {
   padding: 20px;
   color: rgb(90, 18, 158);
   font-size: 20px;
+}
+main section .visitanos {
+  text-align: center;
 }
 
 /*# sourceMappingURL=estilo.css.map */

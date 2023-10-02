@@ -1,7 +1,8 @@
 footer {
     
         div{
-            
+            a{
+            color: transparent;
             .lI {
                 margin: 1rem;
                 text-align: center;
@@ -13,7 +14,7 @@ footer {
                 transform: scale(1.1, 1.1);
                 transition: all 1.2s ease;
             }   
-        
+            }
         
             .lF {
                 margin: 1rem;
@@ -28,6 +29,7 @@ footer {
             }
         }
         }
+        
     
         .my-4{color:transparent;}
         div{
