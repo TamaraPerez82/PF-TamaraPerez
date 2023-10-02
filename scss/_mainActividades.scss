@@ -17,9 +17,33 @@ main {
             }
         }
     }
-
+section{
+    .contCardAct{
+        display: inline-flex;
+        
+         margin: 2rem;    
+        background-color: rgb(233, 220, 233);
+        padding: 1rem;
+        border: rgb(86, 13, 155) solid 3px;
+        .card-body{
+            .card-title{
+                text-align: center;
+                color: $colorTitulos;
+            }
+            .card-subtitle{
+                font-size: 15px;
+            }
+        }
+    }
+}
+    
+    }
+    // .card{
+                  
+    // }   
+    
     section {
-        .galeria {
+        .titTerc {
             font-size: 40px;
             padding: 2rem;
             color: rgb(50, 13, 85);
@@ -52,4 +76,3 @@ main {
 
 
     }
-}
