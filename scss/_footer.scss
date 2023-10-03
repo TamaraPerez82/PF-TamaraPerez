@@ -1,39 +1,33 @@
 footer {
-    
-        div{
-            a{
+
+    div {
+        a {
             color: transparent;
+
             .lI {
-                margin: 1rem;
-                text-align: center;
-                width: 50px;
-                border-radius: 1rem;
+                @include logosFooter
             }
-    
+
             .lI:hover {
-                transform: scale(1.1, 1.1);
-                transition: all 1.2s ease;
-            }   
-            }
-        
-            .lF {
-                margin: 1rem;
-                text-align: center;
-                width: 50px;
-                border-radius: 1rem;
-            }
-    
-            .lF:hover {
-                transform: scale(1.1, 1.1);
-                transition: all 1.2s ease;
+                @include HoverLogoFooter
             }
         }
+
+        .lF {
+            @include logosFooter
         }
-        
-    
-        .my-4{color:transparent;}
-        div{
-            text-align: center;
-            font-size: small;
-    
+
+        .lF:hover {
+            @include HoverLogoFooter
+        }
     }
+}
+
+.my-4 {
+    color: transparent;
+}
+
+div {
+    text-align: center;
+    font-size: small;
+}

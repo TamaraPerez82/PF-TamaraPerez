@@ -21,7 +21,6 @@ main {
 
         .map {
             display: flex;
-
             justify-content: center;
             text-align: center;
             width: 85%;
@@ -40,7 +39,7 @@ main {
                 .parrafo3 {
                     padding: 1rem;
                     font-size: 20px;
-                    font-style: arial;
+                    font-style: Arial, Helvetica, sans-serif;
                     margin: 1rem;
                     text-align: left;
                 }
@@ -55,17 +54,11 @@ main {
 
                 div {
                     .form-label {
-                        display: flex;
-                        padding: auto;
-                        flex-direction: row;
-                        text-align: left;
-                        margin: 1rem;
-                        width: 400px;
+                        @include labelForm
                     }
 
                     .form-control {
                         @extend .form-label;
-
                     }
 
                     .form-text {
@@ -77,18 +70,12 @@ main {
 
                 div {
                     .form-label2 {
-                        display: flex;
-                        padding: auto;
-                        flex-direction: row;
-                        text-align: left;
-                        margin: 1rem;
-                        width: 400px;
+                        @include labelForm
                     }
                 }
 
                 div {
                     .coment {
-
                         display: flex;
                         text-align: left;
                         margin: 1rem;
@@ -132,7 +119,7 @@ main {
             .parrafo3 {
                 padding: 1rem;
                 font-size: 20px;
-                font-style: arial;
+                font-style: Arial, Helvetica, sans-serif;
                 margin: 1rem;
                 text-align: center;
 
@@ -151,7 +138,6 @@ main {
             height: 300px;
         }
     }
-
     .contact {
         text-align: center;
         font-size: 40px;

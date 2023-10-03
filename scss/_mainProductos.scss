@@ -4,18 +4,17 @@ main {
             @include titulosPrincip
         }
     }
-    section{
-        .parrafoProd{
+
+    section {
+        .parrafoProd {
             font-size: 25px;
             margin: 3rem;
             text-align: center;
-            
         }
     }
 
     .contFotos {
         padding: 2rem;
-
     }
 
     .card-body {
@@ -26,11 +25,11 @@ main {
             font-size: 20px;
         }
     }
-    section{
-        .visitanos{
+
+    section {
+        .visitanos {
             text-align: center;
         }
     }
-    
 
 }

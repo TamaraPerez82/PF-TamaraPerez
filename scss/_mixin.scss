@@ -1,21 +1,50 @@
-@mixin titulosPrincip(){
+@mixin titulosPrincip() {
     padding: 3rem;
-    
+
     font-size: 50px;
     text-align: center;
     color: $colorTitulos;
     font-size: $tipografiaTitulos;
 }
-@mixin textosCentrales{
+
+@mixin textosCentrales {
     padding: 2rem;
     line-height: 1.5;
     font-style: $tipografiaTitulos;
     margin: 2rem;
 }
-@mixin imagenes($tamano){
+
+@mixin imagenes($tamano) {
     display: flex;
     text-align: center;
     margin: auto;
     border-radius: 1rem;
     width: $tamano;
+}
+
+@mixin titulosSecundarios {
+    font-size: 40px;
+    padding: 2rem;
+    color: rgb(50, 13, 85);
+}
+
+@mixin logosFooter {
+    margin: 1rem;
+    text-align: center;
+    width: 50px;
+    border-radius: 1rem;
+}
+
+@mixin HoverLogoFooter {
+    transform: scale(1.1, 1.1);
+    transition: all 1.2s ease;
+}
+
+@mixin labelForm {
+    display: flex;
+    padding: auto;
+    flex-direction: row;
+    text-align: left;
+    margin: 1rem;
+    width: 400px;
 }

@@ -82,25 +82,48 @@ main div .img1 {
   border-radius: 1rem;
   width: 300px;
 }
-main section .h2 {
-  color: red;
-  padding: 1rem;
+main section {
+  text-align: center;
+}
+main section .calma {
+  margin: 1rem;
+  padding: 2rem;
+}
+main section .calma .card .card-img-overlay .card-text {
+  padding: 7rem;
+  font-size: 25px;
+}
+@media screen and (max-width: 480px) {
+  main section .calma {
+    margin: 0%;
+    width: fit-content;
+  }
+  main section .calma .card .card-img-overlay .card-text {
+    padding: 0%;
+    font-size: 15px;
+  }
 }
 main section .preguntas {
   margin: 2rem;
   font-size: 25px;
 }
+main section .preguntas:hover {
+  transform: translate(10px, 10px);
+}
 main section .respuestas {
   margin: 2rem;
 }
 
-footer div .lI {
+footer div a {
+  color: transparent;
+}
+footer div a .lI {
   margin: 1rem;
   text-align: center;
   width: 50px;
   border-radius: 1rem;
 }
-footer div .lI:hover {
+footer div a .lI:hover {
   transform: scale(1.1, 1.1);
   transition: all 1.2s ease;
 }
@@ -128,7 +151,7 @@ main section h2 {
   padding: 3rem;
   font-size: 50px;
   text-align: center;
-  color: rgb(131, 58, 150);
+  color: rgb(100, 42, 114);
   font-size: Arial, Helvetica, sans-serif;
 }
 main div .img2 {
@@ -149,7 +172,7 @@ main div h2 {
   padding: 3rem;
   font-size: 50px;
   text-align: center;
-  color: rgb(131, 58, 150);
+  color: rgb(100, 42, 114);
   font-size: Arial, Helvetica, sans-serif;
 }
 main section div .tituloSecundario {
@@ -177,7 +200,7 @@ main section .ubicacion {
 main section div div .parrafo3 {
   padding: 1rem;
   font-size: 20px;
-  font-style: arial;
+  font-style: Arial, Helvetica, sans-serif;
   margin: 1rem;
   text-align: left;
 }
@@ -242,7 +265,7 @@ main section div .formu .miColor:hover {
 main section div .parrafo3 {
   padding: 1rem;
   font-size: 20px;
-  font-style: arial;
+  font-style: Arial, Helvetica, sans-serif;
   margin: 1rem;
   text-align: center;
 }
@@ -264,7 +287,7 @@ main section div .h2 {
   padding: 3rem;
   font-size: 50px;
   text-align: center;
-  color: rgb(131, 58, 150);
+  color: rgb(100, 42, 114);
   font-size: Arial, Helvetica, sans-serif;
 }
 main div ul {
@@ -273,25 +296,46 @@ main div ul {
 main div ul li {
   font-size: 20px;
 }
-main section .galeria {
+main section .parrafoActiv {
+  font-size: 20px;
+}
+main section .contCardAct {
+  display: inline-flex;
+  margin: 2rem;
+  background-color: rgb(233, 220, 233);
+  padding: 1rem;
+  border: rgb(86, 13, 155) solid 3px;
+}
+main section .contCardAct .card-body .card-title {
+  text-align: center;
+  color: rgb(100, 42, 114);
+}
+main section .contCardAct .card-body .card-subtitle {
+  font-size: 15px;
+}
+
+section .titTerc {
   font-size: 40px;
   padding: 2rem;
   color: rgb(50, 13, 85);
 }
-main section .alin {
+section .alin {
   width: 40%;
   border-radius: 1rem;
 }
-main section .promos {
+
+section .promos {
   font-size: 30px;
   padding: 2rem;
   color: rgb(50, 13, 85);
   text-decoration: underline;
 }
-main .promo {
+
+.promo {
   padding-left: 2rem;
 }
-main .listaPromo {
+
+.listaPromo {
   padding-left: 2rem;
 }
 
@@ -299,7 +343,7 @@ main section .h2 {
   padding: 3rem;
   font-size: 50px;
   text-align: center;
-  color: rgb(131, 58, 150);
+  color: rgb(100, 42, 114);
   font-size: Arial, Helvetica, sans-serif;
 }
 main section .parrafoProd {
