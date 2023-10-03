@@ -5,19 +5,19 @@
 }
 
 body {
-  background-color: rgb(221, 204, 238);
+  background-color: #ebd9dd;
   font-family: Arial, Helvetica, sans-serif;
 }
 body .header {
   background: #86479c;
-  background-image: linear-gradient(0deg, rgb(127, 31, 218) 19%, rgb(99, 9, 99) 100%);
+  background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
   padding: 1rem;
   margin: 10px;
 }
 body .header h1 {
   font-size: 40px;
   text-align: center;
-  color: rgb(208, 196, 219);
+  color: #ebd9dd;
   font-style: Arial, Helvetica, sans-serif;
   animation-duration: 5s;
   animation-name: titulo;
@@ -26,15 +26,15 @@ body .header h1 {
 @keyframes titulo {
   0% {
     opacity: 0.2;
-    color: rgb(190, 173, 206);
+    color: #d3b1b8;
   }
   50% {
     opacity: 1;
-    color: rgb(177, 171, 184);
+    color: #ebd9dd;
   }
   100% {
     opacity: 0.3;
-    color: rgb(208, 196, 219);
+    color: #d3b1b8;
   }
 }
 body .header nav div .contLogo .logo {
@@ -89,11 +89,24 @@ main section .calma {
   margin: 1rem;
   padding: 2rem;
 }
+main section .calma .card {
+  border: #9182c4 solid 2px;
+}
 main section .calma .card .card-img-overlay .card-text {
   padding: 7rem;
   font-size: 25px;
 }
 @media screen and (max-width: 480px) {
+  main section .calma {
+    margin: 0%;
+    width: fit-content;
+  }
+  main section .calma .card .card-img-overlay .card-text {
+    padding: 0%;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
   main section .calma {
     margin: 0%;
     width: fit-content;
@@ -354,11 +367,20 @@ main section .parrafoProd {
 main .contFotos {
   padding: 2rem;
 }
-main .card-body .card-title {
+main .card {
+  border: #9182c4 solid 2px;
+}
+main .card .card-body .card-title {
   text-align: left;
   padding: 20px;
   color: rgb(90, 18, 158);
   font-size: 20px;
+}
+main section h4 {
+  font-size: 25px;
+  padding: 2rem;
+  margin: 2rem;
+  color: #486989;
 }
 main section .visitanos {
   text-align: center;
