@@ -17,6 +17,7 @@ main {
         }
     }
 
+
     section {
         .frasesNosotros {
             @include titulosSecundarios
@@ -31,4 +32,21 @@ main {
         border: #486989 solid 2px;
 
     }
+    @media screen and (max-width:420px) {
+        section {
+            .calma {
+                margin: 1rem;
+                padding: 0%;
+                .card { 
+                    .card-img-overlay {
+                        .card-text {
+                            margin: 1px;
+                            padding: 0%;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }   
 }
