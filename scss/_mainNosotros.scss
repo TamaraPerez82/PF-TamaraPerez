@@ -16,4 +16,19 @@ main {
             @include textosCentrales
         }
     }
+
+    section {
+        .frasesNosotros {
+            @include titulosSecundarios
+        }
+    }
+
+    .frasesMagicas {
+        padding: 1.5rem;
+    }
+
+    .card {
+        border: #486989 solid 2px;
+
+    }
 }

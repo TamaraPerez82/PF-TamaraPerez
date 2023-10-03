@@ -16,29 +16,34 @@ main {
     .contFotos {
         padding: 2rem;
     }
-    .card{
+
+    .card {
         border: #9182c4 solid 2px;
-    .card-body {
-        
-        .card-title {
-            text-align: left;
-            padding: 20px;
-            color: rgb(90, 18, 158);
-            font-size: 20px;
+
+        .card-body {
+
+            .card-title {
+                text-align: left;
+                padding: 20px;
+                color: rgb(90, 18, 158);
+                font-size: 20px;
+            }
         }
     }
-    }
-    section{
-        h4{
+
+    section {
+        h4 {
             font-size: 25px;
             padding: 2rem;
             margin: 2rem;
             color: #486989;
         }
     }
+
     section {
         .visitanos {
             text-align: center;
+            margin: 2rem;
         }
     }
 
