@@ -397,6 +397,7 @@ section .promos {
   padding: 2rem;
   color: rgb(50, 13, 85);
   text-decoration: underline;
+  text-align: center;
 }
 
 .promo {
