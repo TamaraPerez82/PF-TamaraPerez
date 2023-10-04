@@ -4,7 +4,6 @@ body {
 
     .header {
         background: #86479c;
-
         background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
         padding: 1rem;
         margin: 10px;
@@ -65,10 +64,11 @@ body {
                         justify-content: end;
                     }
                 }
+
                 .tamanoLetra {
                     font-size: 40px;
                 }
-                
+
             }
         }
     }

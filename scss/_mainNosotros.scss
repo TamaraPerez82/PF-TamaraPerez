@@ -17,7 +17,6 @@ main {
         }
     }
 
-
     section {
         .frasesNosotros {
             @include titulosSecundarios
@@ -33,16 +32,17 @@ main {
         width: 16rem;
         padding: 1.5px;
     }
-    .afirmaciones{
+
+    .afirmaciones {
         @include textosAuxiliares
     }
-        
+
     @media screen and (max-width:420px) {
         section {
             .calma {
                 margin: 1rem;
                 padding: 0%;
-                .card { 
+                .card {
                     .card-img-overlay {
                         .card-text {
                             margin: 1px;
@@ -53,8 +53,9 @@ main {
                 }
             }
         }
-    }   
-    .afirmaciones{
+    }
+
+    .afirmaciones {
         padding: auto;
     }
 }

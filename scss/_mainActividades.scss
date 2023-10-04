@@ -37,6 +37,7 @@ main {
                     text-align: center;
                     color: $colorTitulos;
                 }
+
                 .card-subtitle {
                     font-size: 15px;
                 }
@@ -49,6 +50,7 @@ section {
     .titTerc {
         @include titulosSecundarios
     }
+
     .alin {
         width: 40%;
         border-radius: 1rem;

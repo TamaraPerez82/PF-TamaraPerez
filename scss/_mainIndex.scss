@@ -8,18 +8,18 @@ main {
     div {
         .sectionImg {
             text-align: center;
-
         }
 
         .img1 {
             @include imagenes(300px)
         }
     }
+
     section {
-        text-align: center;        
+        text-align: center;
         .calma {
             margin: 1rem;
-            padding: 2rem;            
+            padding: 2rem;
             .card {
                 border: #9182c4 solid 2px;
                 .card-img-overlay {
@@ -31,14 +31,15 @@ main {
             }
         }
     }
-   @media screen and (max-width:420px) {
+
+    @media screen and (max-width:420px) {
         section {
             .calma {
                 margin: 0;
                 padding: 0%;
                 width: 97%;
                 text-align: center;
-                .card { 
+                .card {
                     .card-img-overlay {
                         .card-text {
                             margin: 1px;
@@ -50,6 +51,7 @@ main {
             }
         }
     }
+
     @media screen and (max-width:1024px) {
         section {
             .calma {
@@ -57,7 +59,7 @@ main {
                 padding: 0%;
                 width: 97%;
                 text-align: center;
-                .card { 
+                .card {
                     .card-img-overlay {
                         .card-text {
                             margin: 1px;
@@ -69,33 +71,34 @@ main {
             }
         }
     }
-   
+
     section {
         .preguntas {
             margin: 2rem;
-            font-size: 25px;            
+            font-size: 25px;
         }
-        .preguntas:hover{
+
+        .preguntas:hover {
             transform: translate(10px, 10px);
         }
+
         .respuestas {
             margin: 2rem;
-        }        
+        }
     }
-    div{
-        
-           .imgF1{
+
+    div {
+        .imgF1 {
             border-radius: 1rem;
             width: 20%;
-           }    
-
+        }
     }
-    @media screen and (max-width:420px){
-        div{
-        
-            .imgF1{             
-             width: 40%;
-            }    
-     }
+
+    @media screen and (max-width:420px) {
+        div {
+            .imgF1 {
+                width: 40%;
+            }
+        }
     }
 }

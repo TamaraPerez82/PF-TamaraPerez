@@ -25,8 +25,7 @@ footer {
 div{
 
     .direccionF{
-        text-align: center;
-        font-size: small;
+        @include textosFooter
     }
 }
 .my-4 {
@@ -34,6 +33,5 @@ div{
 }
 
 div {
-    text-align: center;
-    font-size: small;
+    @include textosFooter
 }

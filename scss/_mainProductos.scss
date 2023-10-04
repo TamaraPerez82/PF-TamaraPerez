@@ -19,9 +19,7 @@ main {
 
     .card {
         border: #9182c4 solid 2px;
-
         .card-body {
-
             .card-title {
                 text-align: left;
                 padding: 20px;
@@ -33,10 +31,11 @@ main {
 
     section {
         h4 {
-          @include textosAuxiliares
+            @include textosAuxiliares
         }
     }
-    .imgVibras{
+
+    .imgVibras {
         width: 15rem;
         border: #9182c4 solid 1px;
         border-radius: 1rem;
@@ -48,5 +47,4 @@ main {
             margin: 2rem;
         }
     }
-
 }
