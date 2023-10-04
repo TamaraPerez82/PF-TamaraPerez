@@ -232,6 +232,9 @@ main .afirmaciones {
     font-size: 15px;
   }
 }
+main .afirmaciones {
+  padding: auto;
+}
 
 main div h2 {
   padding: 3rem;
@@ -255,7 +258,7 @@ main section .map {
   text-align: center;
   width: 85%;
   height: 300px;
-  margin: 0 auto;
+  margin: auto;
 }
 main section .ubicacion {
   text-align: center;
