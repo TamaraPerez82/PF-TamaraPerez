@@ -28,10 +28,15 @@ main {
         padding: 1.5rem;
     }
 
-    .card {
+    .cardF {
         border: #486989 solid 2px;
-
+        width: 16rem;
+        padding: 1.5px;
     }
+    .afirmaciones{
+        @include textosAuxiliares
+    }
+        
     @media screen and (max-width:420px) {
         section {
             .calma {
