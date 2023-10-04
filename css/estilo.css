@@ -44,15 +44,17 @@ body .header nav div .contLogo .logo {
 body .header nav div a {
   text-align: center;
   padding: 10px;
+  margin: 1rem;
   font-size: 20px;
-  color: rgb(53, 8, 83);
+  color: rgb(68, 10, 107);
   text-decoration: none;
 }
 body .header nav div a:hover {
   transform: scale(1.1, 1.1);
   transition: all 1.4s ease;
+  color: rgb(52, 10, 80);
 }
-body .header nav div .contMenu {
+body .header nav div a:hover .contMenu {
   padding: 1rem;
   justify-content: end;
 }
@@ -94,12 +96,27 @@ main section .calma .card {
 }
 main section .calma .card .card-img-overlay .card-text {
   padding: 7rem;
-  font-size: 25px;
+  font-size: 30px;
 }
 @media screen and (max-width: 420px) {
   main section .calma {
     margin: 0;
     padding: 0%;
+    width: 97%;
+    text-align: center;
+  }
+  main section .calma .card .card-img-overlay .card-text {
+    margin: 1px;
+    padding: 0%;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main section .calma {
+    margin: 0;
+    padding: 0%;
+    width: 97%;
+    text-align: center;
   }
   main section .calma .card .card-img-overlay .card-text {
     margin: 1px;
@@ -116,6 +133,15 @@ main section .preguntas:hover {
 }
 main section .respuestas {
   margin: 2rem;
+}
+main div .imgF1 {
+  border-radius: 1rem;
+  width: 20%;
+}
+@media screen and (max-width: 420px) {
+  main div .imgF1 {
+    width: 40%;
+  }
 }
 
 footer div a {
@@ -140,6 +166,11 @@ footer div .lF {
 footer div .lF:hover {
   transform: scale(1.1, 1.1);
   transition: all 1.2s ease;
+}
+
+div .direccionF {
+  text-align: center;
+  font-size: small;
 }
 
 .my-4 {
@@ -179,8 +210,27 @@ main section .frasesNosotros {
 main .frasesMagicas {
   padding: 1.5rem;
 }
-main .card {
+main .cardF {
   border: #486989 solid 2px;
+  width: 16rem;
+  padding: 1.5px;
+}
+main .afirmaciones {
+  font-size: 25px;
+  padding: 2rem;
+  margin: 2rem;
+  color: #486989;
+}
+@media screen and (max-width: 420px) {
+  main section .calma {
+    margin: 1rem;
+    padding: 0%;
+  }
+  main section .calma .card .card-img-overlay .card-text {
+    margin: 1px;
+    padding: 0%;
+    font-size: 15px;
+  }
 }
 
 main div h2 {
@@ -383,6 +433,11 @@ main section h4 {
   padding: 2rem;
   margin: 2rem;
   color: #486989;
+}
+main .imgVibras {
+  width: 15rem;
+  border: #9182c4 solid 1px;
+  border-radius: 1rem;
 }
 main section .visitanos {
   text-align: center;
